@@ -47,7 +47,7 @@ Step 2 - Creating a Voting Smart Contract
 npm install solc
 ```
 
-Replace your aadhaar no and phone number for running the project at https://github.com/sanattaori/techdot/blob/7814403250f8b042992c6d437d9f9db8f98f3729/ui/js/app.js#L39
+Replace your aadhaar no and phone number for running the project at https://github.com/mrdevil99/College_Project/blob/main/ui/js/app.js#L39
 
 Step 3 - Testing in the node console
 
@@ -70,8 +70,8 @@ testrpc creates 10 test accounts to play with automatically. These accounts come
 
 Deploy the contract!
 
-dCode.contracts[‘:Voting’].bytecode: bytecode which will be deployed to the blockchain.
-compiledCode.contracts[‘:Voting’].interface: interface of the contract (called abi) which tells the contract user what methods are available in the contract.
+dCode.contracts[‘: Voting’].bytecode: bytecode which will be deployed to the blockchain.
+compiled code. contracts[‘:Voting’].interface: the interface of the contract (called abi) which tells the contract user what methods are available in the contract.
 ```
 > abiDefinition = JSON.parse(compiledCode.contracts[':Voting'].interface)
 > VotingContract = web3.eth.contract(abiDefinition)
@@ -87,25 +87,25 @@ Step 4 - Interacting with the Contract via the Nodejs Console
 '2'
 ```
 
-### For TypeError: Cannot read property ':Voting' of undefined :
+### For TypeError: Cannot read property ': Voting' of undefined :
 Make sure you have ganache-cli
 ```
 sudo npm install ganache-cli -g
 ```
-copy address of first account
+copy address of the first account
 ```
 $ ganache-cli
 ```
-Paste this adderess to 
+Paste this address to 
 ui/js/clist.js line 17
-https://github.com/sanattaori/techdot/blob/cecabc1917965ed7404e4c444b7572c97e10dcf9/ui/js/clist.js#L17
+https://github.com/mrdevil99/College_Project/blob/main/ui/js/clist.js #17
 
 
-### Purpose of test
+### Purpose of the test
 
- * The authority login is to ensure security to prevent piracy,harresment and corruption from candidates standing in election.
- * OTP generation is to authenticate the right aadhar card owner.
- * button disabling and automatic logout is to prevent multiple voting by single candidate.
+ * The authority login is to ensure security to prevent piracy, harassment, and corruption from candidates standing in the election.
+ * OTP generation is to authenticate the right Aadhar card owner.
+ * button disabling and automatic logout are to prevent multiple voting by a single candidate.
 
    
 ### Screenshots
@@ -118,6 +118,6 @@ https://github.com/sanattaori/techdot/blob/cecabc1917965ed7404e4c444b7572c97e10d
 
 ## Deployment
 
-The Aadhaar based voting system is developed to overcome the flaws of EVM system. So directly EVM will be replaced by touch screen interface having the great
+The Aadhaar-based voting system was developed to overcome the flaws of the EVM system. So directly EVM will be replaced by a screen interface the great
 user interface and high security.
 
