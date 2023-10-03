@@ -16,7 +16,7 @@ Project was implemented as part of College Project
 
 Clone Project
 ```
-git clone git@github.com:sanattaori/techdot.git && cd techdot
+https://github.com/mrdevil99/College_Project.git
 ```
 Install Dependencies
 ```
